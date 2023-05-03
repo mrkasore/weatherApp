@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+body {
+    background-image: url("wallpapers-firewatch-2560-1440-windows-mac-linux.jpg");
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    flex-direction: column;
+    
+
+}
+
+
+
+#container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(52, 61, 66, 0.3);
+    padding: 10px;
+    color: white;
+}
+
+.tmp {
+    display: flex;
+}
+
+#tmpCount {
+    font-size: 20px;
+}
+
+.title {
+    font-size: 40px;
+}
+
+#search {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    background-color:  rgba(52, 61, 66, 0.3);
+    color: white;
+}
+
+button {
+    height: 30px;
+    background-color:  rgba(52, 61, 66, 0.3);
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:  rgba(205, 214, 219, 0.3);
+}
+
+.slider {
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    padding: 3px;
+    right: 0;
+    margin-top: 10px;
+}
+
+.el {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    transition: 0.4s;
+}
+
+.slider.fr .el {
+    transform: translateX(30px);
+}
